@@ -1,15 +1,9 @@
+// @ts-check
+
 import canvasSketch from "canvas-sketch";
 
 const settings = {
   dimensions: [1080, 1080],
-};
-
-const colors = ["red", "green", "blue"];
-
-const getRandomInt = (min, max) => {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min) + min);
 };
 
 const sketch = () => {
